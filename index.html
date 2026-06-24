@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SANZMIKRO | Jasa Setting MikroTik & OLT</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#08111f;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+background:linear-gradient(135deg,#08111f,#0b2c66);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+position:relative;
+overflow:hidden;
+}
+
+header::before{
+content:'';
+position:absolute;
+width:600px;
+height:600px;
+background:#00aaff20;
+border-radius:50%;
+filter:blur(100px);
+animation:float 6s infinite alternate;
+}
+
+@keyframes float{
+from{transform:translateY(-50px);}
+to{transform:translateY(50px);}
+}
+
+.hero{
+position:relative;
+z-index:2;
+}
+
+.hero h1{
+font-size:70px;
+color:#2bbcff;
+text-shadow:0 0 20px #2bbcff;
+}
+
+.hero p{
+font-size:22px;
+margin:20px 0;
+color:#d8e7ff;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.title h2{
+font-size:40px;
+color:#2bbcff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#0f1d33;
+padding:25px;
+border-radius:20px;
+transition:.3s;
+border:1px solid transparent;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:#2bbcff;
+box-shadow:0 0 25px rgba(43,188,255,.3);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#2bbcff;
+}
+
+.card ul{
+list-style:none;
+}
+
+.card li{
+margin:8px 0;
+}
+
+.pricing{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.price-box{
+background:#0f1d33;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.price-box:hover{
+transform:scale(1.03);
+}
+
+.price{
+font-size:40px;
+color:#25D366;
+margin:15px 0;
+font-weight:bold;
+}
+
+footer{
+background:#050b14;
+padding:30px;
+text-align:center;
+color:#ccc;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 20px rgba(37,211,102,.5);
+z-index:999;
+animation:pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.1);}
+100%{transform:scale(1);}
+}
+
+.contact{
+text-align:center;
+font-size:18px;
+line-height:2;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+color:#d8e7ff;
+font-size:18px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:45px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.title h2{
+font-size:30px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>SANZMIKRO</h1>
+<p>Jasa Setting MikroTik, OLT GPON/EPON, FTTH, PPPoE, Hotspot, Load Balancing & Maintenance Jaringan</p>
+
+<a href="https://wa.me/6283854826348" class="btn">
+Hubungi via WhatsApp
+</a>
+</div>
+</header>
+
+<section id="tentang">
+<div class="title">
+<h2>Tentang SANZMIKRO</h2>
+</div>
+
+<div class="about">
+SANZMIKRO adalah penyedia jasa profesional konfigurasi jaringan MikroTik dan OLT FTTH.
+Kami melayani setting MikroTik, PPPoE Server, Hotspot Voucher, VLAN, VPN, Firewall,
+OLT GPON/EPON, Registrasi ONU, hingga maintenance jaringan untuk RT/RW Net, ISP,
+kantor, sekolah, dan bisnis internet.
+</div>
+</section>
+
+<section id="layanan">
+<div class="title">
+<h2>Layanan Kami</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>🔥 Setting MikroTik</h3>
+<ul>
+<li>Basic Configuration</li>
+<li>DHCP Server</li>
+<li>PPPoE Server</li>
+<li>Hotspot Voucher</li>
+<li>Firewall Security</li>
+<li>VPN & Routing</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🌐 Setting OLT</h3>
+<ul>
+<li>GPON / EPON</li>
+<li>Registrasi ONU</li>
+<li>VLAN Management</li>
+<li>Bridge & Routing</li>
+<li>FTTH Setup</li>
+<li>Troubleshooting</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>⚡ RT/RW Net</h3>
+<ul>
+<li>Mikhmon</li>
+<li>Radius</li>
+<li>Voucher WiFi</li>
+<li>Billing System</li>
+<li>Load Balancing</li>
+<li>Failover ISP</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="paket">
+<div class="title">
+<h2>Paket Jasa</h2>
+</div>
+
+<div class="pricing">
+
+<div class="price-box">
+<h3>BASIC</h3>
+<div class="price">150K</div>
+<p>DHCP, NAT, Internet Sharing</p>
+</div>
+
+<div class="price-box">
+<h3>STANDARD</h3>
+<div class="price">300K</div>
+<p>PPPoE, Hotspot, Firewall</p>
+</div>
+
+<div class="price-box">
+<h3>PRO</h3>
+<div class="price">500K</div>
+<p>Load Balancing, VPN, VLAN, Failover</p>
+</div>
+
+<div class="price-box">
+<h3>OLT FTTH</h3>
+<div class="price">500K+</div>
+<p>Setup OLT, ONU, VLAN, FTTH</p>
+</div>
+
+</div>
+</section>
+
+<section id="kontak">
+<div class="title">
+<h2>Kontak Kami</h2>
+</div>
+
+<div class="contact">
+📱 WhatsApp : 083854826348 <br>
+📧 Email : azrielsanzi92@gmail.com <br>
+🌐 SANZMIKRO - Solusi Jaringan Profesional
+</div>
+</section>
+
+<footer>
+© 2026 SANZMIKRO - Jasa Setting MikroTik & OLT
+</footer>
+
+<a class="whatsapp" href="https://wa.me/6283854826348">
+💬
+</a>
+
+</body>
+</html>
